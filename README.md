@@ -38,20 +38,20 @@ To replicate the paper experiments on DN4IL, the dn_split folder contains the sp
 ## Citing
 If you use this repository in your research, please cite the following:
 ```
-@inproceedings{green_fomo_2024,
+@inproceedings{xxx,
   title={How Green is Continual Learning, Really? Analyzing the Energy Consumption in Continual Training of Vision Foundation Models},
-  author={Your Name et al.},
+  author={xxx},
   booktitle={Proceedings of the ECCV 2024 Workshop},
   year={2024}
 }
 ```
 
 ```
-@article{sun2023pilot,
-  title={PILOT: Pre-training with Contrastive Learning of Global and Local Features for Incremental Object Detection},
-  author={Sun, Hailong and others},
-  journal={arXiv preprint arXiv:2301.12528},
-  year={2023}
+@article{zhou2024continual,
+  title={Continual learning with pre-trained models: A survey},
+  author={Zhou, Da-Wei and Sun, Hai-Long and Ning, Jingyi and Ye, Han-Jia and Zhan, De-Chuan},
+  journal={arXiv preprint arXiv:2401.16386},
+  year={2024}
 }
 ```
 
