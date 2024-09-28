@@ -1,8 +1,8 @@
-# How green is continual learning, really? Analyzing the Energy Consumption in Continual Training of Vision Foundation Models (GreenFomo@ECCV2024)
+# How green is continual learning, really? Analyzing the Energy Consumption in Continual Training of Vision Foundation Models (GreenFOMO@ECCV2024)
 
 ![alt text](https://github.com/CodingTomo/how-green-continual-learning/blob/main/src/methodology.png?raw=true)
 
-This repository contains the official code for the spotlight paper *"How Green is Continual Learning, Really? Analyzing the Energy Consumption in Continual Training of Vision Foundation Models"*, presented at the **GreenFomo Workshop (ECCV 2024)**. The paper explores the environmental impact of continual training in vision foundation models, providing benchmarks on their energy consumption and offering insights into their sustainability.
+This repository contains the official code for the spotlight paper *"How Green is Continual Learning, Really? Analyzing the Energy Consumption in Continual Training of Vision Foundation Models"*, presented at the **GreenFOMO Workshop (ECCV 2024)**. The paper explores the environmental impact of continual training in vision foundation models, providing benchmarks on their energy consumption and offering insights into their sustainability.
 
 This project builds on [PILOT](https://github.com/sun-hailong/LAMDA-PILOT), integrating energy tracking using CodeCarbon to measure carbon emissions and energy usage during model training.
 
