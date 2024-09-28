@@ -2,7 +2,16 @@
 
 ![alt text](https://github.com/CodingTomo/how-green-continual-learning/blob/main/src/methodology.png?raw=true)
 
-This repository contains the official code for the spotlight paper *"How Green is Continual Learning, Really? Analyzing the Energy Consumption in Continual Training of Vision Foundation Models"*, presented at the **GreenFOMO Workshop (ECCV 2024)**. The paper explores the environmental impact of continual training in vision foundation models, providing benchmarks on their energy consumption and offering insights into their sustainability.
+This repository contains the official code for the spotlight paper *"How Green is Continual Learning, Really? Analyzing the Energy Consumption in Continual Training of Vision Foundation Models"*, presented at the **GreenFOMO Workshop (ECCV 2024)**. The paper explores the environmental impact of continual training in vision foundation models, providing benchmarks on their energy consumption and offering insights into their sustainability. 
+
+
+
+## Authors
+ - [**Tomaso Trinci**](https://scholar.google.com/citations?user=kfN-d6IAAAAJ&hl=it)
+ - [**Simone Magistri**](https://scholar.google.com/citations?user=fAS993EAAAAJ&hl=it)
+ - [**Roberto Verdecchia**](https://scholar.google.com/citations?user=kfN-d6IAAAAJ&hl=it)
+ - [**Andrew D. Bagdanov**](https://scholar.google.com/citations?user=kfN-d6IAAAAJ&hl=it)
+
 
 This project builds on [PILOT](https://github.com/sun-hailong/LAMDA-PILOT), integrating energy tracking using CodeCarbon to measure carbon emissions and energy usage during model training.
 
