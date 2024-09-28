@@ -8,9 +8,9 @@ This repository contains the official code for the spotlight paper *"How Green i
 
 ## Authors
  - [**Tomaso Trinci**](https://scholar.google.com/citations?user=kfN-d6IAAAAJ&hl=it)
- - [**Simone Magistri**](https://scholar.google.com/citations?user=fAS993EAAAAJ&hl=it)
- - [**Roberto Verdecchia**](https://scholar.google.com/citations?user=kfN-d6IAAAAJ&hl=it)
- - [**Andrew D. Bagdanov**](https://scholar.google.com/citations?user=kfN-d6IAAAAJ&hl=it)
+ - [**Simone Magistri**](https://scholar.google.com/citations?hl=it&user=fAS993EAAAAJ&view_op=list_works&sortby=pubdate)
+ - [**Roberto Verdecchia**](https://scholar.google.it/citations?user=pvO-0xwAAAAJ&hl=en)
+ - [**Andrew D. Bagdanov**](https://scholar.google.com/citations?user=_Fk4YUcAAAAJ&hl=en)
 
 
 This project builds on [PILOT](https://github.com/sun-hailong/LAMDA-PILOT), integrating energy tracking using CodeCarbon to measure carbon emissions and energy usage during model training.
