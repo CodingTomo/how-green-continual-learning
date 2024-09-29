@@ -41,6 +41,14 @@ Modify METHOD_NAME.yaml to switch between different continual learning methods.
 
 To replicate the paper experiments on DN4IL, the dn_split folder contains the splits used. Place these files in the dataset directory before training.
 
+## Output
+- The `logs` folder contains three CSV files that report the **training** energy consumption of the CPU, GPU, and memory at different levels of granularity: *per epoch*, *per task*, and *total consumption*. An additional CSV file reports the **inference** energy consumption for 10,000 requests.
+
+- The `METHOD_gpu_inference_time.npy` file reports the inference time for each of the 10,000 requests after the final incremental training step.
+
+- The `per_step_incremental_accuracy.txt` file reports the accuracy per step after each task, while another `average_incremental_accuracy.txt` file reports the average accuracy during the incremental training process.
+
+
 ## Results
 Comparison in terms of training energy consumption (x-axis) and accuracy after the final incremental step (y-axis) across benchmarks and task sequence lengths.
 ![alt text](https://github.com/CodingTomo/how-green-continual-learning/blob/main/src/train_energy_vs_accuracy_all.jpeg)
