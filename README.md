@@ -44,7 +44,7 @@ To replicate the paper experiments on DN4IL, the dn_split folder contains the sp
 ## Output
 - The `logs` folder contains three CSV files that report the **training** energy consumption of the CPU, GPU, and memory at different levels of granularity: *per epoch*, *per task*, and *total consumption*. An additional CSV file reports the **inference** energy consumption for 10,000 requests.
 
-- The `METHOD_gpu_inference_time.npy` file reports the inference time for each of the 10,000 requests after the final incremental training step.
+- The `METHOD_NAME_gpu_inference_time.npy` file reports the inference time for each of the 10,000 requests after the final incremental training step.
 
 - The `per_step_incremental_accuracy.txt` file reports the accuracy per step after each task, while another `average_incremental_accuracy.txt` file reports the average accuracy during the incremental training process.
 
