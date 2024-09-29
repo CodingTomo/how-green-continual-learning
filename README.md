@@ -42,6 +42,7 @@ Modify METHOD_NAME.yaml to switch between different continual learning methods.
 To replicate the paper experiments on DN4IL, the dn_split folder contains the splits used. Place these files in the dataset directory before training.
 
 ## Results
+Comparison in terms of training energy consumption (x-axis) and accuracy after the final incremental step (y-axis) across benchmarks and task sequence lengths.
 ![alt text](https://github.com/CodingTomo/how-green-continual-learning/blob/main/src/train_energy_vs_accuracy_all.jpeg)
 
 ## Citing
