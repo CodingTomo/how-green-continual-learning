@@ -2,8 +2,7 @@
 
 ![alt text](https://github.com/CodingTomo/how-green-continual-learning/blob/main/src/methodology.png?raw=true)
 
-This repository contains the official code for the spotlight paper *"How Green is Continual Learning, Really? Analyzing the Energy Consumption in Continual Training of Vision Foundation Models"*, presented at the **GreenFOMO Workshop (ECCV 2024)**. The paper explores the environmental impact of continual training in vision foundation models, providing benchmarks on their energy consumption and offering insights into their sustainability. 
-([ArXiv](https://arxiv.org/abs/2409.18664))
+This repository contains the official code for the spotlight paper *"How Green is Continual Learning, Really? Analyzing the Energy Consumption in Continual Training of Vision Foundation Models"*, presented at the **GreenFOMO Workshop (ECCV 2024)**. The paper explores the environmental impact of continual training in vision foundation models, providing benchmarks on their energy consumption and offering insights into their sustainability. ([ArXiv](https://arxiv.org/pdf/2409.18664?))
 
 
 ## Authors
