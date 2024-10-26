@@ -70,10 +70,10 @@ class Learner(BaseLearner):
             optimizer = optim.SGD(
                 [
                       {'params':self._network.backbone.parameters()},
-                      {'params':self._network.fc.parameters(),'lr':0.01}
+                      {'params':self._network.fc.parameters(),'lr':1e-3}
                 ],
                 momentum=0.9,
-                lr=0.0001,
+                lr=1e-3,
                 weight_decay=0.0005,
             )
             scheduler = optim.lr_scheduler.MultiStepLR(
@@ -84,10 +84,10 @@ class Learner(BaseLearner):
             optimizer = optim.SGD(
                 [
                       {'params':self._network.backbone.parameters()},
-                      {'params':self._network.fc.parameters(),'lr':0.01}
+                      {'params':self._network.fc.parameters(),'lr':1e-3}
                 ],
                 momentum=0.9,
-                lr=0.0001,
+                lr=1e-3,
                 weight_decay=0.0005,
             )
             scheduler = optim.lr_scheduler.MultiStepLR(

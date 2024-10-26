@@ -129,9 +129,14 @@ def _train(args):
             print('Average Accuracy (CNN):', sum(cnn_curve["top1"])/len(cnn_curve["top1"]))
             logging.info("Average Accuracy (CNN): {} \n".format(sum(cnn_curve["top1"])/len(cnn_curve["top1"])))
 
-        average_incremental_accuracy.append(sum(cnn_curve["top1"])/len(cnn_curve["top1"]))
-        per_step_incremental_accuracy.append(cnn_accy["grouped"]["total"])
-        all_results.append(cnn_accy)
+        if args["model_name"] == "icarl":
+            average_incremental_accuracy.append(sum(nme_curve["top1"])/len(nme_curve["top1"]))
+            per_step_incremental_accuracy.append(nme_accy["grouped"]["total"])
+            all_results.append(nme_accy)
+        else:
+            average_incremental_accuracy.append(sum(cnn_curve["top1"])/len(cnn_curve["top1"]))
+            per_step_incremental_accuracy.append(cnn_accy["grouped"]["total"])
+            all_results.append(cnn_accy)
     method_emission_tracker.stop()
 
     if len(cnn_matrix) > 0:
