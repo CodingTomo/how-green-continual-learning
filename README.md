@@ -55,14 +55,16 @@ Comparison in terms of training energy consumption (x-axis) and accuracy after t
 ## Citing
 If you use this repository in your research, please cite the following:
 ```
-@misc{trinci2024greencontinuallearningreally,
-      title={How green is continual learning, really? Analyzing the energy consumption in continual training of vision foundation models}, 
-      author={Tomaso Trinci and Simone Magistri and Roberto Verdecchia and Andrew D. Bagdanov},
-      year={2024},
-      eprint={2409.18664},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2409.18664}, 
+@InProceedings{10.1007/978-3-031-92089-9_19, author="Trinci, Tomaso and Magistri, Simone and Verdecchia, Roberto and Bagdanov, Andrew D.",
+editor="Del Bue, Alessio and Canton, Cristian and Pont-Tuset, Jordi and Tommasi, Tatiana",
+title="How Green Is Continual Learning, Really? Analyzing the Energy Consumption in Continual Training of Vision Foundation Models",
+booktitle="Computer Vision -- ECCV 2024 Workshops",
+year="2025",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="300--317",
+abstract="",
+isbn="978-3-031-92089-9"
 }
 ```
 
